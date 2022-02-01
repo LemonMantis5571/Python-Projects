@@ -60,7 +60,7 @@ class Myapp(MDApp):
                                     size_hint=(.2, .2))
 
         self.switch = Switch(pos_hint={'center_x': 0.75, 'center_y': 0.05})
-        self.music_dir = 'C:\Music'
+        self.music_dir = '/home/lee/Music'
 
         music_files = os.listdir(self.music_dir)
 
